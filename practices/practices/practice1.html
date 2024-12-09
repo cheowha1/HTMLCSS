@@ -5,8 +5,56 @@
 <title>테이블</title>
 
 <style type="text/css" media="screen">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	
+	body {
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		font-size: 0.75em;
+		color: #333;
+	}
+
+	table {
+		margin-top: 10px;
+		margin-right: auto;
+		margin-left: auto;
+		border-collapse: collapse;
+	}
+
 	.tbl-ex {
-		border: 1px black;
+		border: 1px solid #333;
+		border-left: 0;
+		border-right: 0;
+
+	}
+
+	th {
+		border: 1px solid #333;
+		padding: 8px;
+		background-color: #999;
+		font-size: 1.1em;
+		color: #fff;
+		border-left: 0;
+		border-right: 0;
+		border-top: 2px solid #333;
+		border-bottom: 2px solid #333;
+	}
+
+	td {
+		border: 1px dotted #333;
+		padding: 8px;
+		border-left: 0;
+		border-right: 0;
+	}
+
+	tr:hover{
+		background-color: #fc6;
+	}
+
+	.even {
+		background-color: #E8ECF6;
 	}
 </style>
 </head>
